@@ -5,18 +5,19 @@ import * as S from './Style.jsx'
 function Header(){
     return(
         <S.Header>
-            <h1>Letícia S. De Carvalho</h1>
+            <h1>Letícia Souza</h1>
 
 
             <S.Nav>
                 <S.Ul>
-                    <li>Sobre mim</li>
-                    <li>Skills</li>
-                    <li>Hobbies</li>
-                    <li>Formação</li>
-                    <li>Projetos</li>
-                    <li>Contato</li>
+                    <li><S.A href="">Sobre mim</S.A></li>
+                    <li><S.A href="">Skills</S.A></li>
+                    <li><S.A href="">Hobbies</S.A></li>
+                    <li><S.A href="">Formação</S.A></li>
+                    <li><S.A href="">Projetos</S.A></li>
+                    {/* <li><S.A href="">Contato</S.A></li> */}
                 </S.Ul>
+                <span><S.A href="">Contato</S.A></span>
             </S.Nav>
         </S.Header>
     )
