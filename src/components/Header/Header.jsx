@@ -4,7 +4,21 @@ import * as S from './Style.jsx'
 
 function Header(){
     return(
-        <h1>oiiii</h1>
+        <S.Header>
+            <h1>Letícia S. De Carvalho</h1>
+
+
+            <S.Nav>
+                <S.Ul>
+                    <li>Sobre mim</li>
+                    <li>Skills</li>
+                    <li>Hobbies</li>
+                    <li>Formação</li>
+                    <li>Projetos</li>
+                    <li>Contato</li>
+                </S.Ul>
+            </S.Nav>
+        </S.Header>
     )
 }
 
