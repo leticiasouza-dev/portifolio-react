@@ -9,12 +9,24 @@ export const Header = styled.header`
 
     white-space: nowrap;
 
-    @media screen and (max-width: 768px){ // para tablets
-        padding: 0 3rem 0 3rem;
+    @media screen and (max-width:995px) { // laptos menores
+        padding: 20px 2rem;
     }
 
-    @media screen and (max-width: 360px){ // para celulares
-        padding: 0 1rem 0 1rem;
+    @media screen and (max-width: 768px){ // para tablets
+        padding: 1rem 2rem;
+    }
+
+    @media screen and (max-width: 426px){ // para celulares maiores
+        padding: 1rem;
+
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 360px){ // para celulares menores
+        
     }
 
 `
@@ -29,11 +41,26 @@ export const Ul = styled.ul`
     display: flex;
     justify-content: space-around;
 
+    .contato{
+        font-weight: bold;
+    }
 
     @media screen and (max-width: 768px){ // para tablets
+        justify-content: end;
+
         .desaparecer{
             display: none;
         }
+    }
+
+    @media screen and (max-width: 426px){ // para celulares maiores
+        .contato{
+            font-weight: normal;
+        }
+    }
+
+    @media screen and (max-width: 360px){ // para celulares menores
+        
     }
 `
 

@@ -15,7 +15,7 @@ function Header(){
                     <li className="desaparecer"><S.A href="">Hobbies</S.A></li>
                     <li className="desaparecer"><S.A href="">Formação</S.A></li>
                     <li className="desaparecer"><S.A href="">Projetos</S.A></li>
-                    <li><S.A href="">Contato</S.A></li>
+                    <li className="contato"><S.A href="">Contato</S.A></li>
                 </S.Ul>
             </S.Nav>
         </S.Header>
