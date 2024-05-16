@@ -10,14 +10,13 @@ function Header(){
 
             <S.Nav>
                 <S.Ul>
-                    <li><S.A href="">Sobre mim</S.A></li>
-                    <li><S.A href="">Skills</S.A></li>
-                    <li><S.A href="">Hobbies</S.A></li>
-                    <li><S.A href="">Formação</S.A></li>
-                    <li><S.A href="">Projetos</S.A></li>
-                    {/* <li><S.A href="">Contato</S.A></li> */}
+                    <li className="desaparecer"><S.A href="">Sobre mim</S.A></li>
+                    <li className="desaparecer"><S.A href="">Skills</S.A></li>
+                    <li className="desaparecer"><S.A href="">Hobbies</S.A></li>
+                    <li className="desaparecer"><S.A href="">Formação</S.A></li>
+                    <li className="desaparecer"><S.A href="">Projetos</S.A></li>
+                    <li><S.A href="">Contato</S.A></li>
                 </S.Ul>
-                <span><S.A href="">Contato</S.A></span>
             </S.Nav>
         </S.Header>
     )

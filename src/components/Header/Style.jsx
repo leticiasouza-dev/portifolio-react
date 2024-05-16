@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-    padding: 20px 7rem;
+    padding: 20px 6rem;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    white-space: nowrap;
 
     @media screen and (max-width: 768px){ // para tablets
         padding: 0 3rem 0 3rem;
@@ -18,7 +20,7 @@ export const Header = styled.header`
 `
 
 export const Nav = styled.nav`
-    width: 60%;
+    width: 70%;
 `
 
 export const Ul = styled.ul`
@@ -29,7 +31,9 @@ export const Ul = styled.ul`
 
 
     @media screen and (max-width: 768px){ // para tablets
-        display: none;
+        .desaparecer{
+            display: none;
+        }
     }
 `
 
