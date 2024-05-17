@@ -5,6 +5,10 @@ export const Main = styled.main`
 
     background-color: red;
 
+    p{
+        padding: 2rem 0;
+    }
+
     @media screen and (max-width:995px) { // laptos menores
         padding: 20px 2rem;
     }
@@ -44,4 +48,8 @@ export const divContainer = styled.div`
         }
     }
 `
-
+export const divLinks = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+`
