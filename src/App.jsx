@@ -33,8 +33,6 @@ function App() {
 
           <img src={fotoPerfil} alt="foto de perfil" />
 
-
-          
           
         </S.SectionSobreMim>
         

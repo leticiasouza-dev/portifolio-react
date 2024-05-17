@@ -25,9 +25,6 @@ export const Header = styled.header`
         }
     }
 
-    @media screen and (max-width: 360px){ // para celulares menores
-        
-    }
 
 `
 
@@ -59,9 +56,6 @@ export const Ul = styled.ul`
         }
     }
 
-    @media screen and (max-width: 360px){ // para celulares menores
-        
-    }
 `
 
 export const A = styled.a`
