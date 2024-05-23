@@ -36,6 +36,27 @@ function App() {
           
         </S.SectionSobreMim>
         
+
+        <S.InformacoesSobreMim >
+            <h2>Sobre mim</h2>
+
+            <p>
+                Sou apaixonada por tecnologia e estudo programação há mais de um ano, focando principalmente no 
+                desenvolvimento full stack com React, JavaScript, SQL, Java e Node. Atualmente, estou no segundo 
+                ano do ensino médio integrado com o curso técnico em Desenvolvimento de Sistemas, que iniciei este 
+                ano.
+            </p>
+            
+            <p>
+                Além disso, estou cursando um programa full stack de um ano na instituição Programadores do 
+                Amanhã, que me permite explorar todas as etapas do desenvolvimento de software, desde o back-end 
+                até o front-end. Também participo de um curso de front-end (React) na Alura, disponibilizado pelo 
+                programa Next Education da Oracle, que tem me proporcionado uma visão ainda mais ampla e detalhada 
+                sobre o desenvolvimento web.ão ainda mais ampla e detalhada sobre o desenvolvimento web.
+            </p>
+                
+            
+        </S.InformacoesSobreMim>
       </S.Main>
     </>
     

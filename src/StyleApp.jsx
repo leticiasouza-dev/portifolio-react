@@ -1,24 +1,10 @@
 import styled from "styled-components"
 
 export const Main = styled.main`
-    padding: 20px 6rem;
-
-    /* background-color: red; */
-
-    @media screen and (max-width:995px) { // laptos menores
-        padding: 20px 2rem;
-    }
-
-    @media screen and (max-width: 768px){ // para tablets
-        padding: 1rem 2rem;
-    }
-
-    @media screen and (max-width: 426px){ // para celulares maiores
-        padding: 1rem ;
-    }
 `
 
 export const SectionSobreMim = styled.section`
+    margin: 20px 6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,12 +14,18 @@ export const SectionSobreMim = styled.section`
     }
 
     @media screen and (max-width:995px) { // laptos menores
+        margin: 20px 2rem;
         img{
             height: 10rem;
         }
     }
 
+    @media screen and (max-width: 768px){ // para tablets
+        margin: 1rem 2rem;
+    }
+
     @media screen and (max-width: 426px){ // para celulares maiores
+        margin: 1rem ;
         flex-direction: column-reverse;
         align-items: flex-start;
     }
@@ -88,4 +80,19 @@ export const divLinks = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+`
+
+export const InformacoesSobreMim = styled.section`
+    background-color:  #EAF2FD;
+
+    padding:4rem 28rem 4rem 6rem;
+
+    p{
+        line-height: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    @media screen and (max-width: 768px){ // para tablets
+        padding:1rem 2rem;
+    }
 `
