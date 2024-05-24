@@ -96,3 +96,7 @@ export const InformacoesSobreMim = styled.section`
         padding:1rem 2rem;
     }
 `
+
+export const ContainerCompetencias = styled.section`
+
+`

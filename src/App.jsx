@@ -4,6 +4,7 @@ import * as S from './StyleApp.jsx'
 
 import Header from './components/Header/Header';
 import LinksAcesso from './components/LinksAcesso/LinksAcesso.jsx'
+import {SessaoCompetencias} from './components/SessaoCompetencias/SessaoCompetencias.jsx';
 
 
 import fotoPerfil from "./assets/backgrounds/perfil.jpg"
@@ -57,6 +58,10 @@ function App() {
                 
             
         </S.InformacoesSobreMim>
+
+        <S.ContainerCompetencias>
+          <SessaoCompetencias/>
+        </S.ContainerCompetencias>
       </S.Main>
     </>
     
