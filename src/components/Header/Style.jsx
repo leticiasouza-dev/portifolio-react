@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
+background-color: white;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
     padding: 20px 6rem;
 
     display: flex;

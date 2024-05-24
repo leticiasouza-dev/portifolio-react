@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Main = styled.main`
+    padding-top: 6rem;
 `
 
 export const SectionSobreMim = styled.section`
