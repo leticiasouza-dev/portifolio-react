@@ -1,13 +1,12 @@
 import React from "react";
 
 import * as S from './Style.jsx'
-import icon from '../../assets/icons/iconHtml.svg'
 
-function Card_competencias(){
+function Card_competencias(props){
     return(
         <S.Container>
-            <img src={icon} alt="" />
-            <p>Html 5</p>
+            <img src={props.src} alt="" />
+            <p>{props.texto}</p>
         </S.Container>
     )
 }

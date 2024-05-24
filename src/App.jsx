@@ -6,6 +6,13 @@ import Header from './components/Header/Header';
 import LinksAcesso from './components/LinksAcesso/LinksAcesso.jsx'
 import {SessaoCompetencias} from './components/SessaoCompetencias/SessaoCompetencias.jsx';
 
+import iconeHtml from './assets/icons/iconHtml.svg';
+import iconeCss from './assets/icons/iconCss.svg'
+import iconeJavascript from './assets/icons/iconJs.svg'
+import iconeReact from './assets/icons/iconReact.svg';
+import iconeNode from './assets/icons/iconNode.svg'
+import iconeSql from './assets/icons/iconSql.png';
+
 
 import fotoPerfil from "./assets/backgrounds/perfil.jpg"
 
@@ -60,7 +67,20 @@ function App() {
         </S.InformacoesSobreMim>
 
         <S.ContainerCompetencias>
-          <SessaoCompetencias/>
+          <SessaoCompetencias 
+            titulo='Skills'
+            elemento1 = {iconeHtml} texto1 = 'Html 5'
+            elemento2 = {iconeCss} texto2 = 'CSS'
+            elemento3 = {iconeJavascript} texto3 = 'Javascript'
+            elemento4 = {iconeReact} texto4 = 'React'
+            elemento5 = {iconeNode} texto5 = 'Node JS'
+            elemento6 = {iconeSql} texto6 = 'SQL'
+          />
+
+          <SessaoCompetencias 
+            titulo='Hobbies'
+          
+          />
         </S.ContainerCompetencias>
       </S.Main>
     </>
