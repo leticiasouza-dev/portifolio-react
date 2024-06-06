@@ -2,17 +2,26 @@ import React from 'react'
 
 import * as S from './StyleApp.jsx'
 
+// importação dos componentes
 import Header from './components/Header/Header';
 import LinksAcesso from './components/LinksAcesso/LinksAcesso.jsx'
 import {SessaoCompetencias} from './components/SessaoCompetencias/SessaoCompetencias.jsx';
 import Card_formacaoAcademica from './components/Card_formacaoAcademica/Card_formacaoAcademica.jsx';
 
+// importação dos icones 
 import iconeHtml from './assets/icons/iconHtml.svg';
 import iconeCss from './assets/icons/iconCss.svg'
 import iconeJavascript from './assets/icons/iconJs.svg'
 import iconeReact from './assets/icons/iconReact.svg';
 import iconeNode from './assets/icons/iconNode.svg'
 import iconeSql from './assets/icons/iconSql.png';
+
+// importação das logo dos cursos
+import logoAlura from './assets/backgrounds/logoCursoAlura.svg';
+import logoPda from './assets/backgrounds/logoCursoPDA.svg';
+import logoDevMedia from './assets/backgrounds/logoCursoDevMedia.jpg';
+import logoSenai from './assets/backgrounds/logoCursoSenai.svg'
+import logoVaiNaWeb from './assets/backgrounds/logoCursoVaiNaWeb.svg'
 
 
 import fotoPerfil from "./assets/backgrounds/perfil.jpg"
@@ -87,10 +96,42 @@ function App() {
         <S.SessaoFormacaoAcademica>
           <h2>Formação acadêmica</h2>
           <S.ContainerCards>
-            <Card_formacaoAcademica/>
-            <Card_formacaoAcademica/>
-            <Card_formacaoAcademica/>
+            <Card_formacaoAcademica
+              src ={logoPda}
+              nomeCurso = {'Formação Full-stack'}
+              situacaoCurso = {'Em Andamento'}
+            />
+            <Card_formacaoAcademica
+              src = {logoAlura}
+              nomeCurso = {'Formação Front-end'}
+              situacaoCurso = {'Em Andamento'}
+            />
+            
+            <Card_formacaoAcademica 
+              src = {logoDevMedia}
+              nomeCurso = {'Formação Full-stack'}
+              situacaoCurso = {'Em Andamento'}
+            />
+
+            <Card_formacaoAcademica
+              src = {logoSenai}
+              nomeCurso = {'Operador de Microcomputadores'}
+              situacaoCurso = {'Em Andamento'}
+            />
+
+            <Card_formacaoAcademica
+              src = {logoVaiNaWeb}
+              nomeCurso = {'Formação Front-end'}
+              situacaoCurso = {'Concluida - 200horas'}
+            />
+
+
+            <Card_formacaoAcademica
+            
+            />
           </S.ContainerCards>
+
+          
           
         </S.SessaoFormacaoAcademica>
       </S.Main>

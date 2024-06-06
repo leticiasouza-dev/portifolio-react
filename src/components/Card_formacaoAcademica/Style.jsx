@@ -18,6 +18,7 @@ export const Card = styled.article`
     @media screen and (max-width: 426px){ // para celulares maiores
         width:296px;
         height: 169px;
+        
 
     }
 
@@ -46,7 +47,7 @@ export const ContainerImg = styled.div`
     }
 
     @media screen and (max-width: 426px){ // para celulares maiores
-       
+       justify-content: center;
 
     }
 

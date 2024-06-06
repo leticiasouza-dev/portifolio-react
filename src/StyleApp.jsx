@@ -113,7 +113,7 @@ export const SessaoFormacaoAcademica = styled.section`
     }
 
     @media screen and (max-width: 426px){ // para celulares maiores
-        
+
     }
 
     @media screen and (max-width: 768px){ // para tablets
@@ -124,5 +124,10 @@ export const ContainerCards = styled.div `
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 2rem;
 
+
+    @media screen and (max-width: 426px){ // para celulares maiores
+        justify-content: center;
+    }
 `

@@ -1,17 +1,17 @@
 import React from "react";
 
 import * as S from './Style.jsx'
-import logoAlura from '../../assets/backgrounds/logoCursoAlura.svg'
 
-function Card_formacaoAcademica(){
+
+function Card_formacaoAcademica(props){
     return(
         <S.Card>
             <S.ContainerImg>
-                <img src={logoAlura} alt="" />
+                <img src={props.src} alt={props.nomeCurso} />
             </S.ContainerImg>
             
-            <p className="nomeCurso">Front end</p>
-            <p>Em andamento - Alura</p>
+            <p className="nomeCurso">{props.nomeCurso}</p>
+            <p>{props.situacaoCurso}</p>
         </S.Card>
     )
 }
