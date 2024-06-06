@@ -35,7 +35,7 @@ function App() {
 
       <S.Main>
 
-        <S.SectionSobreMim>
+        <S.SectionSobreMim id='SessaoSobreMim'>
 
           <S.divContainer>
             <h2>Olá, sou Letícia Souza, desenvolvedora de páginas web criativas e funcionais.</h2>
@@ -55,7 +55,7 @@ function App() {
         </S.SectionSobreMim>
         
 
-        <S.InformacoesSobreMim >
+        <S.InformacoesSobreMim id='informacoesSobreMim'>
             <h2>Sobre mim</h2>
 
             <p>
@@ -76,7 +76,7 @@ function App() {
             
         </S.InformacoesSobreMim>
 
-        <S.ContainerCompetencias>
+        <S.ContainerCompetencias id='sessaoCompetencias'>
           <SessaoCompetencias 
             titulo='Skills'
             elemento1 = {iconeHtml} texto1 = 'Html 5'
@@ -93,7 +93,7 @@ function App() {
           />
         </S.ContainerCompetencias>
 
-        <S.SessaoFormacaoAcademica>
+        <S.SessaoFormacaoAcademica id='sessaoFormacaoAcademica'>
           <h2>Formação acadêmica</h2>
           <S.ContainerCards>
             <Card_formacaoAcademica
