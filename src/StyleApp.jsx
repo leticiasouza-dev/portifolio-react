@@ -102,3 +102,19 @@ export const InformacoesSobreMim = styled.section`
 export const ContainerCompetencias = styled.section`
 
 `
+
+export const SessaoFormacaoAcademica = styled.section`
+    background-color:  #EAF2FD;
+    padding: 4rem 6rem 4rem 6rem;
+
+    h2{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+`
+export const ContainerCards = styled.div `
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+`
