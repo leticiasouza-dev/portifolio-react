@@ -111,6 +111,14 @@ export const SessaoFormacaoAcademica = styled.section`
         text-align: center;
         padding-bottom: 2rem;
     }
+
+    @media screen and (max-width: 426px){ // para celulares maiores
+        
+    }
+
+    @media screen and (max-width: 768px){ // para tablets
+        padding:1rem 2rem;
+    }
 `
 export const ContainerCards = styled.div `
     display: flex;

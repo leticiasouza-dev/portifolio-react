@@ -15,6 +15,22 @@ export const Card = styled.article`
         font-weight: bold;
     }
 
+    @media screen and (max-width: 426px){ // para celulares maiores
+        width:296px;
+        height: 169px;
+
+    }
+
+    @media screen and (max-width: 768px){ // para tablets
+        width:224px;
+        height: 169px;
+
+        .nomeCurso{
+            font-size: 1rem;
+        }
+
+    }
+
 `
 
 export const ContainerImg = styled.div`
@@ -27,5 +43,18 @@ export const ContainerImg = styled.div`
     img{
         width: 192px;
         height: 130px;
+    }
+
+    @media screen and (max-width: 426px){ // para celulares maiores
+       
+
+    }
+
+    @media screen and (max-width: 768px){ // para tablets
+        img{
+            width: 84px;
+            height: 58px;
+        }
+
     }
 `
